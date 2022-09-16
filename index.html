@@ -77,8 +77,9 @@ function draw(canvas){
 		ctx.fill();
 	}
 }
-
+var strin = "2" + Number.MAX_SAFE_INTEGER*5;
 for(var k = 0; k<Number.MAX_SAFE_INTEGER*5; k++){
+  strin = "2" + Number.MAX_SAFE_INTEGER*5;
   var imgcanvas = document.createElement('CANVAS');
   document.body.appendChild(imgcanvas);
   draw(imgcanvas);
